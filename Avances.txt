@@ -13,3 +13,7 @@ avance 12: solucionado problema de linkeo
 avance 13: se puede comenzar el proyecto
 avance 14: main y funciones promedio
 avance 15: connPgSQL.cpp = proyecto 
+
+Al final Logramos conectarnos al servidor desde UBUNTU, agregando la libreia libpq correctamente 
+sacamos los datos de los profesore y los mostramos por la terminal despues no pudimos seguir avanzando por diversos 
+errores que iban apareciendo.
