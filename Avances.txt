@@ -1,1 +1,15 @@
-avance 1:
+avance 1: comenzar el proyecto
+avance 2: problemas de conexion
+avance 3: solucionado problema de conexion
+avance 4: problemas de linkeo
+avance 5: problemas con la compilacion "TCHAR", ISO C++
+avance 6: problemas de compilacion con las librerias
+avance 7: siguen estos problemas
+avance 8: solucionado problemas de libreria
+avance 9: problemas con la aquitectura de windows 7, no era compatible
+avance 10 solucionado problema del ISO C++
+avance 11: solucionado problema de arquitectura
+avance 12: solucionado problema de linkeo
+avance 13: se puede comenzar el proyecto
+avance 14 main y funciones promedio
+avance 15: connPgSQL.cpp = proyecto 
