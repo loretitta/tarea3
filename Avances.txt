@@ -11,5 +11,5 @@ avance 10 solucionado problema del ISO C++
 avance 11: solucionado problema de arquitectura
 avance 12: solucionado problema de linkeo
 avance 13: se puede comenzar el proyecto
-avance 14 main y funciones promedio
+avance 14: main y funciones promedio
 avance 15: connPgSQL.cpp = proyecto 
