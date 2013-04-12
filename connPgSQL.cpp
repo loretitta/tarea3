@@ -18,13 +18,20 @@ int main(int argc, char * argv[])
     int i;
     cnn = PQsetdbLogin(host,port,NULL,NULL,dataBase,user,passwd);
 
-    if (PQstatus(cnn) != CONNECTION_BAD) 
+    cout << " Integrantes "<<endl;
+    cout << " Astudillo Loreta "<<endl;
+    cout << " Ibarra Mario "<<endl;
+    cout << " Muñoz Abraham "<<endl;
+
+
+
+    if (PQstatus(cnn) != CONNECTION_BAD)
     {
         cout << "Conectado a PostgreSQL!" << endl;
-        
+
         result = PQexec(cnn, "SELECT * FROM cursos");
 
-        if (result != NULL) 
+        if (result != NULL)
         {
   result =PQexec(cnn,"SELECT distinct docente_id FROM cursos");
   int tuplas = PQntuples(result);
@@ -33,7 +40,7 @@ int main(int argc, char * argv[])
                 for (int j=0; j<campos; j++) {
       cout <<"ID Docente : ";
                     cout << PQgetvalue(result,i,j) << " | ";
-      
+
                 }
                 cout << endl;
                 }
@@ -42,7 +49,7 @@ int main(int argc, char * argv[])
         PQclear(result);
         }
     }
- 
+
     else {
         cout << "Error de conexion" << endl;
         return 0;
